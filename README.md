@@ -1,8 +1,18 @@
 # Salon Appointment Booking Web App
 The app allows customers to book salon services, receive WhatsApp confirmation, and enables admins to manage appointments through a simple dashboard.
 
-🔥 Features
-👩‍💼 Customer Side
+## 📸 Screenshots
+### 🌞 Dashboard - Light Mode
+![Dashboard Light](images/dashboard-light.png)
+
+### 🌙 Dashboard - Dark Mode
+![Dashboard Dark](images/dashboard-dark.png)
+
+### Admin Dashboard
+![Admin Dashboard](images/admin-dashboard.png)
+
+## 🔥 Features
+### 👩‍💼 Customer Side
 
 Select service with pricing
 
@@ -16,7 +26,7 @@ Dark / Light mode toggle
 
 Mobile-friendly, clean UI
 
-🧑‍💻 Admin Side
+### 🧑‍💻 Admin Side
 
 View all bookings in a table
 
@@ -26,7 +36,7 @@ Track services, dates, and times
 
 Clear all bookings (LocalStorage)
 
-🛠️ Built With
+### 🛠️ Built With
 
 HTML5 – Structure
 
@@ -36,15 +46,7 @@ JavaScript (Vanilla) – Logic & interactivity
 
 LocalStorage – Data persistence (no backend)
 
-📂 Project Structure
-salon-booking/
-│── index.html      # Customer booking page
-│── admin.html      # Admin dashboard
-│── style.css       # Styling + dark/light mode
-│── script.js       # Booking logic & WhatsApp integration
-│── README.md
-
-## ⚙️ How It Works
+### ⚙️ How It Works
 
 User fills the booking form
 
@@ -54,7 +56,7 @@ WhatsApp opens with a pre-filled confirmation message
 
 Admin dashboard reads data from LocalStorage and displays bookings
 
-## 🚀 How to Run the Project
+### 🚀 How to Run the Project
 
 Download or clone the repository
 
@@ -66,7 +68,7 @@ Open admin.html to view bookings
 
 No installation or backend required.
 
-## 📱 WhatsApp Confirmation
+### 📱 WhatsApp Confirmation
 
 The app automatically generates a WhatsApp message like:
 
@@ -79,7 +81,7 @@ Time: 2:00 PM
 
 Thank you for choosing us 💇‍♀️
 
-## Why This Project Matters
+### Why This Project Matters
 
 This project demonstrates:
 
@@ -97,7 +99,7 @@ Third-party integration (WhatsApp)
 
 Perfect for frontend developer portfolios and internship/junior roles.
 
-## Future Improvements
+### Future Improvements
 
 Admin authentication
 
