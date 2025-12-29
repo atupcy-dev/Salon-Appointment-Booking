@@ -1,0 +1,61 @@
+:root {
+    --bg: #f5f3ef;
+    --text: #000;
+    --card: #fff;
+    --btn: #c9a36a;
+}
+
+.dark {
+    --bg: #121212;
+    --text: #fff;
+    --card: #1e1e1e;
+    --btn: #9f7a44;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: Poppins, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    background: var(--card);
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+button {
+    background: var(--btn);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.toggle {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+
+.confirmation {
+    display: none;
+    background: #e6ffe6;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.admin-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
